@@ -22,7 +22,7 @@ const menus = [
   },
 ];
 
-export default function Sidebar() {
+function DashboardSidebar() {
   const pathname = usePathname();
 
   return (
@@ -56,3 +56,5 @@ export default function Sidebar() {
     </aside>
   );
 }
+
+export default DashboardSidebar;

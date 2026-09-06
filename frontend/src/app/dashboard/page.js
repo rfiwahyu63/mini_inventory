@@ -1,9 +1,9 @@
-import Header from "@/component/dashboard/Header"
+import DashboardSummary from "./dashboardSummary";
 
 function DashboardPage() {
   return (
     <div>
-      <Header />
+      <DashboardSummary />
     </div>
   );
 }
