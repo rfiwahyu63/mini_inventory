@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+
+  /* Background utama halaman */
+  --background: #ffffff;
+  /* Teks utama */
+  --foreground: #171717;
+  
+  
+  --primary: #6d8b64; /* Warna utama brand, tombol utama */
+  --primary-foreground: #ffffff; /* Teks/icon di atas warna primary */
+
+  --secondary: #cccccc; /* Tombol/elemen sekunder */
+  --secondary-foreground: #0f172a; /* Teks di atas secondary */
+
+  --muted: #f8fafc; /* Background elemen yang tidak terlalu menonjol */
+  --muted-foreground: #64748b; /* Teks sekunder/deskripsi */
+
+  --border: #e2e8f0; /* Border card, input, tabe */
+
+  --success: #16a34a;  
+  --warning: #f59e0b;  
+  --danger: #dc2626;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-border: var(--border);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  --font-sans: var(--font-inter);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
