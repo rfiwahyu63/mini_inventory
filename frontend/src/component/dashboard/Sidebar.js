@@ -26,7 +26,7 @@ function DashboardSidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="w-64 border-r p-6">
+    <aside className="w-56 border-r p-6">
       <h1 className="mb-8 text-xl font-bold">
         Mini Inventory
       </h1>

@@ -15,9 +15,10 @@
   --secondary-foreground: #0f172a; /* Teks di atas secondary */
 
   --muted: #f8fafc; /* Background elemen yang tidak terlalu menonjol */
-  --muted-foreground: #64748b; /* Teks sekunder/deskripsi */
+  --muted-foreground: #959697; /* Teks sekunder/deskripsi */
 
-  --border: #e2e8f0; /* Border card, input, tabe */
+  --borderPrimary: #666363; /* Border card, input, tabe */
+  --borderSecondary: #aaabad; /* Border card, input, tabe */
 
   --success: #16a34a;  
   --warning: #f59e0b;  
